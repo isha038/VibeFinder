@@ -1,0 +1,32 @@
+# Root-level dotenv files
+.env
+
+# ignore any vibe‑finder env files too
+vibe-finder/.env*
+
+# Firebase Admin key
+DataFetching/serviceAccountKey.json
+
+#artist tags
+DataFetching/artist_tags_5000.json
+
+# Bytecode caches
+DataFetching/__pycache__/
+DataFetching/*.pyc
+
+# Next build outputs
+vibe-finder/.next/
+vibe-finder/out/
+
+# Node modules
+vibe-finder/node_modules/
+
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+.vscode/
+.idea/
+.DS_Store

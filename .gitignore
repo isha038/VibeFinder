@@ -15,6 +15,8 @@ vibe-finder/node_modules/
 vibe-finder/.env*
 vibe-finder/.vercel
 
+node_modules
+
 # Logs
 *.log
 npm-debug.log*
